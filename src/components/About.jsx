@@ -1,10 +1,12 @@
+// About.jsx
+
 import React from 'react';
 import './About.css';
 import profilePicture from '../images/profile.jpg'; 
 
 const About = () => {
   return (
-    <div className='about-me-card'>
+    <div className='about-container'>
       <div className='about'>
         <h1 className='about-title'>Welcome to ComSept</h1>
         <p className='about-description'>
@@ -20,10 +22,11 @@ const About = () => {
           Say goodbye to tedious manual text formatting tasks and hello to efficiency with ComSept!
         </p>
       </div>
-      <div className='about-me-card'>
-        <img className='profile-picture' src={profilePicture} alt='Profile' />
+      <div className='about'>
+       
         <div className='about-me-details'>
           <h1 className='about-me-title'>Who made this?</h1>
+          <img className='profile-picture' src={profilePicture} alt='Profile' />
           <h2 className='about-me-name'>Hemanth Kumar</h2>
           <p className='about-me-description'>
             As a full stack developer, I'm passionate about leveraging technology to create meaningful solutions that simplify tasks and enhance productivity. With a keen eye for detail and a dedication to continuous learning, I strive to deliver high-quality software products that make a positive impact.

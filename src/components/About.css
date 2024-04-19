@@ -1,67 +1,82 @@
+
 .about-container {
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: center;
   align-items: flex-start;
-  padding-top: 70px;
+  padding-top: 100px;
+  max-height: 80vh; 
+  overflow-y: auto; 
 }
+
 
 .about {
   flex: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  margin-top: 20px;
+  max-width: 600px; 
+  padding: 20px;
 }
 
-.about-me-card {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-  margin-left: 30px;
-  padding-top: 60px;
-  border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  background-color: #fff; 
+
+.about-title {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+
+.about-description {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+
+.about-features {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+
+.about-features li {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+
+.about-benefit {
+  font-size: 18px;
+  color: #007bff;
+  font-style: italic;
+  margin-bottom: 40px;
 }
 
 .profile-picture {
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
   margin-right: 20px;
   object-fit: cover;
   object-position: top;
-  border: 3px solid #fff; 
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
 }
+
 
 .about-me-details {
   display: flex;
   flex-direction: column;
 }
 
-.about-me-name {
+
+.about-me-title {
   font-size: 24px;
-  font-weight: bold;
   margin-bottom: 10px;
-  color: #333;
 }
+
+
+.about-me-name {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
 
 .about-me-description {
   font-size: 16px;
-  color: #555;
-  margin-top: 5px;
-}
-.about-me-title{
-  font-size: 24px;
-  font-weight: bold;
-  margin-bottom: 10px;
-  color: #333;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  padding-bottom: 40px;
 }

@@ -21,6 +21,7 @@ nav {
   .icons {
     display: flex;
     align-items: center;
+    color:#fff;
   }
   
   .icon-tabler {
@@ -38,23 +39,11 @@ nav {
   
   .mobile-menu-icon {
     display: none;
+    color: #fff;
+    padding-right: 1rem;
   }
   
-  @media screen and (max-width: 768px) {
-    .menu-items,
-    .signup-button,
-    .github-corner {
-      display: none;
-      
-    }
-    .mobile-menu-icon {
-      display: flex;
-      align-items: center;
-      font-size: 4vh;
-      cursor: pointer;
-      color: white;
-    }
-  }
+ 
   
   .logo {
     width: 32px; 
@@ -85,4 +74,18 @@ nav {
     display: flex;
     align-items: center;
     padding-left: 400px;
+  }
+  @media screen and (max-width: 768px) {
+    .menu-items,
+    .signup-button,
+    .github-corner {
+      display: none;
+      
+    }
+    .mobile-menu-icon {
+      display: flex;
+      align-items: center;
+      font-size: 4vh;
+      cursor: pointer;
+    }
   }

@@ -23,13 +23,13 @@
     font-size: 2rem;
     cursor: pointer;
     outline: none;
-    color: white;
     position: absolute;
     top: 2rem;
     right: 2.5rem;
+    color:#fff;
 }
 .close-icon{
-    color : whitesmoke
+    color : #fff;
 }
 .sidebar-menu{
     display: grid;
@@ -58,4 +58,5 @@
 .button-wrap{
     display: flex;
     justify-content: center;
+    align-items: center;
 }
