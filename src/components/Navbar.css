@@ -1,0 +1,88 @@
+nav {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    background: black;
+  }
+  
+  .link {
+    text-decoration: none;
+    display: flex;
+    color: white;
+    align-items: center;
+    padding: 0 1rem;
+    height: 100%;
+    cursor: pointer;
+  }
+  
+  .icons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .icon-tabler {
+    margin-right: 5px;
+  }
+  
+  .github-icon {
+    fill: #fff;
+  }
+  
+  .menu-items {
+    display: flex;
+    align-items: center;
+  }
+  
+  .mobile-menu-icon {
+    display: none;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .menu-items,
+    .signup-button,
+    .github-corner {
+      display: none;
+      
+    }
+    .mobile-menu-icon {
+      display: flex;
+      align-items: center;
+      font-size: 4vh;
+      cursor: pointer;
+      color: white;
+    }
+  }
+  
+  .logo {
+    width: 32px; 
+    height: auto; 
+    display:flex;
+    mix-blend-mode: lighten;
+    align-items: center;
+    cursor: pointer;
+    text-align: center;
+    margin-right: 0.2rem;
+    animation: spin 5s linear infinite running;
+  }
+  
+  h3 {
+    font-style: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    cursor: pointer;
+    text-decoration: solid;
+    align-items: center;
+    display: flex;
+    height: 100%;
+
+
+  }
+
+  .menu-items{
+    display: flex;
+    align-items: center;
+    padding-left: 400px;
+  }
