@@ -1,0 +1,13 @@
+# Example ads.txt file for example.com
+
+# Google
+google.com, pub-1234567890123456, DIRECT, f08c47fec0942fa0
+
+# Facebook
+facebook.com, 123456789012345, DIRECT, d41d8cd98f00b204e9800998ecf8427e
+
+# Example Ad Network
+adnetwork.com, 1234567890, DIRECT
+
+# Another Ad Network
+anotheradnetwork.com, 9876543210, DIRECT
